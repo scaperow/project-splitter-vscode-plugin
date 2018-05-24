@@ -15,7 +15,8 @@ export class DepNodeProvider implements vscode.TreeDataProvider<Dependency> {
     }
 
     getTreeItem(element: Dependency): vscode.TreeItem {
-        return new vscode.TreeItem("sdf", vscode.TreeItemCollapsibleState.Collapsed);
+        
+        return element;
 
     }
 
